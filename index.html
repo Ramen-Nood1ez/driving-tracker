@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Driving Tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='main.js'></script>
+    <script>
+        $(document).ready(function() {
+            updatehours()
+        })
+    </script>
+</head>
+<body>
+    <h1>Welcome to Driving Tracker!</h1>
+    <p>
+        This is a little website I made to track my driving
+    </p>
 
+    <h2>Total Hours</h2>
+    <p>Required driving hours: 50 Hours</p>
+    <p id="totalhours">0</p>
+    <p>Required night driving hours: 10 Hours</p>
+    <h2>Hours driven at night</h2>
+    <p id="nighthours">0</p>
+</body>
+</html>
